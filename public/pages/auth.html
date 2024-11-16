@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate My Peer</title>
+    <link href="../styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">Rate My Peer</div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="auth.html">Login</a>
+                <a href="help.html">Help</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="login-container">
+            <h1>Welcome Back</h1>
+            <p class="subtitle">Please enter your credentials to continue</p>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="login-button">Sign In</button>
+            </form>
+
+            <div class="signup-prompt">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-bottom">
+            <p>Built With ❤️ by Saaim Japanwala <br>&copy; 2024 Rate My Peer. All rights reserved.</p>
+        </div>
+        <script src="auth.js"></script>
+    </footer>

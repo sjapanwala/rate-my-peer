@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile</title>
+</head>
+<body>
+  <link href="../styles.css" rel="stylesheet">
+  <nav class="navbar">
+    <div class="navbar-content">
+        <div class="logo">Rate My Peer</div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../pages/about.html">About</a>
+            <a href="../pages/auth.html">Login</a>
+            <a href="../pages/help.html">Help</a>
+            <a href="../pages/privacy.html">Privacy Policy</a>
+        </div>
+    </div>
+</nav>
+<link rel="stylesheet" href="profile.css">
+  <div class="container">
+    <div class="profile">
+      <img id="profile-picture" src="" alt="Profile Picture">
+      <h1 id="name"></h1>
+      <p><strong>Email:</strong> <span id="student-ccid"></span></p>
+      <p><strong>Major:</strong> <span id="major"></span></p>
+      <p><strong>Minor:</strong> <span id="minor"></span></p>
+      <p><strong>GPA:</strong> <span id="gpa"></span></p>
+    </div>
+    <div class="links">
+      <h2>External Links</h2>
+      <ul id="external-links"></ul>
+    </div>
+    <div class="institution">
+      <h2>Institution Information</h2>
+      <p><strong>Institution:</strong> <span id="institution-name"></span></p>
+      <p><strong>Start Date:</strong> <span id="start-date"></span></p>
+      <p><strong>Expected Graduation:</strong> <span id="graduation-date"></span></p>
+      <p><strong>Graduated:</strong> <span id="graduated"></span></p>
+    </div>
+    <div class="course-history">
+      <h2>Course History</h2>
+      <div id="courses"></div>
+    </div>
+    <div class="clubs">
+      <h2>Clubs</h2>
+      <div id="club-activities"></div>
+    </div>
+  </div>
+  <script src="../scripts.js"></script>
+</body>
+</html>
